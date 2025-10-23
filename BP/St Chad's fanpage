@@ -11,14 +11,17 @@
         font-family: Helvetica, Arial, sans-serif;
         font-size: 10px;
         color:aqua;
+        
       }
 
       body {
-        background-image: url(StChadsCollege.jpg);
+        background-image: url(GreyBackground.jpg);
       }
 
       h2 {
         font-size: 2rem;
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: black;
       }
 
       ul,ol,dl,p {
@@ -27,6 +30,8 @@
 
       li, p {
         line-height: 1.5;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
       }
 
       /* Unordered list styles */
@@ -37,6 +42,7 @@
         border-color: black;
         border-style: solid;
         border-radius: 0.1cm;
+        border-width: 0.2cm;        
       }
 
       ul li {
@@ -51,16 +57,35 @@
 
       ol {
         list-style-type: upper-roman;
+        border-color: black;
+        border-style: solid;
+        border-radius: 0.1cm;
+        border-width: 0.2cm;
       }
 
       /* Description list styles */
 
+      dd {
+        border-color: black;
+        border-style: solid;
+        border-radius: 0.1cm;
+        border-width: 0.1cm;
+      }
+
       dd, dt {
-        line-height: 1.5;
+        line-height: 3;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
       }
 
       dt {
         font-weight: bold;
+        border-color: black;
+        border-style: solid;
+        border-radius: 0.1cm;
+        border-width: 0.2cm;
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: black;
       }
 
     </style>
@@ -69,7 +94,7 @@
     <h2>Shopping (unordered) list</h2>
 
     <ul>
-      <li>.</li>
+      <li>Chips</li>
       <li>Humous</li>
       <li>Pitta</li>
       <li>Green salad</li>
